@@ -1,0 +1,41 @@
+DevOps Valaxy Course
+
+## Course Objective
+
+1) Learn industry most favorite DevOps tools stack
+2) Able to setup production ready DevOps CI/CD pipelines
+
+
+## Who can learn
+
+1) People who want to shift from other technologies
+2) Who are desperate to move onto DevOps Culture
+
+## Who can't
+
+1) People from Non-IT background
+
+
+## Tools covered in this course
+
+1) Git                --  version Control System
+2) Jenkins            --  Continuous Integration
+3) Maven              --  Build Tool
+4) SonarQube          --  Code Analysis
+5) Jfrog Artifactory  --  Artifact Repository
+6) Docker             --  Containerization
+7) Ansible            --  Deployment & Configuration Management
+8) Kubernetes         --  Container Management
+9) Prometheus         --  Monitoring and Alerting
+
+
+## Before Starting
+
+1) All these DevOps Tools are Configured on AWS Cloud
+2) Each Participant should create their own AWS account
+3) If you are new to Unix please go through Linux Free Course
+4) These Lectures are Online Training Recorded Videos
+5) This is not a certification course (mostly hands-on)
+6) Teaching Programming Skills are not the part of this course
+7) Less Theory and More Hands on
+
