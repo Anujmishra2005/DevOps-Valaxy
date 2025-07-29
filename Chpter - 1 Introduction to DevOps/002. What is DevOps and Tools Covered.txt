@@ -1,0 +1,133 @@
+What is DevOps and Devops Engineer Role and Tools that is to be Covered
+
+
+# What is DevOps ?
+
+DevOps is a set of practices that combines software Development (Dev) and IT Operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. DevOps is complementary with Agile Software Development, several DevOps aspects came from agile methodology
+
+
+## Role of DevOps Engineer
+
+DevOps is quite simple !  and  DevOps is difficult !!
+
+
+Developer gives a piece of code. DevOps Engineer has to copy this code on to the server
+
+
+Conditions :-
+1) I will give code every day or couple of times in a day.
+2) Compile and deploy it on test and prod servers.
+3) Prod servers are used by client. So it should be up and running all the time.
+
+
+                         To Copy Code in Server
+Developer Systems ---------------------------------------->  Server
+                     Source Code Management Tool (To maintain/manage source code appropriately)
+                     Compilation Tool (To Compile Our Code)
+                     Integration Tool (For Testing Purposes)
+                     Deployment Tools (For the Automation Tool and Deployment )
+                     IT Infrastructure (For Server Infrastructure Management and Additional Resources)
+                     Monitoring Tools (To manage the Servers Properly So that Servers are Up and Running all the times)
+
+
+All tools has multiple products
+
+
+## Suggestive Automation using DevOps Delivery Pipeline
+
+
+Image
+
+
+## How do we achieve this grand plan ?
+
+
+Image
+
+
+Source Code Repository - 
+Bitbucket , Git , GitLab
+Jenkins - Continuous Integration Tool
+
+Compilation Tools -
+for Java (Maven) and .NET(Ms Build)
+
+Unit Test Tools - 
+Selenium , Protractor, JUnit
+
+Static Analysis Tools -
+SonarQube
+
+Packaging Tools -
+Nexus, Artifactory, JFrog
+
+Environment Provisioning Tools -
+Chef , Ansible , Openstack , Kubernetes , Virtual Box , Docker , Puppet Labs , Vagrant
+
+Service Visualization - 
+Ca and LISA
+
+Acceptance Test - 
+Selenium , Protractor
+
+Identity Access Management - 
+WSo2 , FORGEROCK
+
+Application Performance Monitoring -
+APP DYNAMICS , New Relic.
+
+Performance Load Testing -
+Apache JMeter
+
+Ready to Release Software - 
+Selenium
+
+Production Environment - 
+VMWare , Amazon AWS , Kubernetes
+
+Service Management and Monitoring - 
+Logstash , Prometheus , Splunk Dashing , Grafana , Redis
+
+Containerized Packaged Solutions
+
+
+
+## DevOps Lifecycle
+
+Continuous Development    - N/A (Visual Studio)
+-> Source Code Management - Git
+Continuous Integration    - Jenkins
+Continuous Deployment
+Continuous Testing
+Continuous Monitoring
+
+
+1) Continuous Development 
+Developers uses various tools to develop their code. Developed code get pushed onto source code management
+
+Eg - IDE = Visual Studio, Eclipse
+
+Most of the cases DevOps engineers doesn't write application code
+
+DevOps engineers are responsible to maintain the code using "Source Code Management Tools"
+
+Source Code Management Tools - Git , Bitbucket , Subversion , Perforce Version everything , GitLab
+
+
+2) Continuous Integration
+
+
+Eg - Jenkins, Bamboo, circleci, TeamCity
+
+Multiple steps are involved in Continuous integration.
+-> Unit Testing - Junit, Nunit(plugin)
+-> Code Build - Maven, ANT, Gradle(Plugin & Setup)
+-> Code Analysis - Veracode, SonarQube(Plugin & Setup)
+-> Code Artifacts - Nexus, Artifactory(Plugin & Setup)
+
+
+
+
+
+
+
